@@ -1,3 +1,4 @@
+#h1 - viisikko
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 Karvinen 2023: Create a Web Page Using Github
 -Tehtiin oma web page githubiin
@@ -30,6 +31,12 @@ d) Tietoa koneesta. Kerää tietoja koneesta Saltin grains.items -tekniikalla. P
   os : käyttöjärjestelmä eli debian 
   osarch : arkkitehtuuri eli amd64
   virtual : onko järjestemä fyysinen tai virtuaalinen ja meillä se on VirtualBox
+
+  ## References
+  https://terokarvinen.com/2023/configuration-management-2023-autumn/
+  https://terokarvinen.com/2020/command-line-basics-revisited/
+  https://terokarvinen.com/2021/salt-run-command-locally/
+
 
 
 
