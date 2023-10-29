@@ -1,4 +1,4 @@
-#h1 - viisikko
+#
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 Karvinen 2023: Create a Web Page Using Github
 -Tehtiin oma web page githubiin
