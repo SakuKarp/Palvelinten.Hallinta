@@ -18,6 +18,7 @@ Karvinen 2023: Run Salt Command Locally
 a) Asenna Salt (salt-minion) koneellesi.
   Asensin salt-minionin käyttämällä teron ohjeita https://terokarvinen.com/2023/configuration-management-2023-autumn/ "Saltin asennus Debian 12"
 b) Viisi tärkeintä. Näytä esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
+
   pkg.installed: tein tämän teron ohjeiden mukaan ja nähtävästi se latasi "tree" ja resultiksi tuli true succeed removedilla se poistetaan.
   
   file.managed tein tämän teron ohjeiden mukaan ja se teki minulle tmp kansioon "hellosaku" tiedoston tulos oli succeed ja total runtime 5.6 ms
