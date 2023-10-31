@@ -1,13 +1,20 @@
 #
 x) Lue ja tiivistä. (Tässä x-alakohdassa ei tarvitse tehdä testejä tietokoneella, vain lukeminen tai kuunteleminen ja tiivistelmä riittää. Tiivistämiseen riittää muutama ranskalainen viiva.)
 Karvinen 2023: Create a Web Page Using Github
+#
 -Tehtiin oma web page githubiin
+#
 -harjoiteltiin githubin käyttöä
 Karvinen 2023: Run Salt Command Locally
--Salt komentojen käyttöä
+#
+-Salt komentojen 
+#
 -salt slave-daemon asentaminen debianissa komennoilla
+#
 -ohjelman asentaminen, tiedoston hallinta, palvelun hallinta, käyttäjät
+#
 -idempotentisti eli vain kun tarvitsee muutoksia
+#
 a) Asenna Salt (salt-minion) koneellesi.
   Asensin salt-minionin käyttämällä teron ohjeita https://terokarvinen.com/2023/configuration-management-2023-autumn/ "Saltin asennus Debian 12"
 b) Viisi tärkeintä. Näytä esimerkit viidestä tärkeimmästä Saltin tilafunktiosta: pkg, file, service, user, cmd. Analysoi ja selitä tulokset.
