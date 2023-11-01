@@ -18,7 +18,7 @@ Cattle on palvelimia joita käytetään joukoissa, ne ovat automatisoituja ja ne
 
 -tuhoaminen
 
-#Karvinen 2023: Salt Vagrant - automatically provision one master and two slaves
+# Karvinen 2023: Salt Vagrant - automatically provision one master and two slaves
 
 -vagrantin asennus
 
