@@ -1,12 +1,12 @@
 
-# Online
+# a) Online 
 
 Loin uuden varaston GitHubiin. Nimesin sen "winterkuusipalaa" ja lisäsin siihen luomisvaiheessa README.md filen sekä GNU General Public license 3:sen
 
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/ee43c1ce-2e86-482f-967c-151977ca7ee1)
 
 
-# Dolly
+# b) Dolly
 
 - Aloitin tekemällä päivitykset ja asensin Gitin
 
@@ -51,7 +51,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/32eabd82-cea5-4d61-955f-30c81837a8ea)
 
-# Doh!
+# c) Doh!
 
 
 1. Poistin tiedoston README.md
@@ -63,7 +63,7 @@ https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generati
 
 
 
-# Tukki
+# d) Tukki
 
         git log --patch
 
