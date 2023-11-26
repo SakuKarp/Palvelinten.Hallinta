@@ -94,9 +94,10 @@ tämän jälkeen:
 
 
 
-# e) Ämpärillinen. Tee Salt-tila, joka asentaa järjestelmään kansiollisen komentoja.
+
+
 
 ## References
-
 https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
 https://terokarvinen.com/2023/configuration-management-2023-autumn/
+https://man7.org/linux/man-pages/man1/man.1.html
