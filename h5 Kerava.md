@@ -49,13 +49,46 @@ jossa näkyi että printNotesAddin oli = false
 
 
 
+# c) Komennus. Tee Salt-tila, joka asentaa järjestelmään uuden komennonon
+
+
+Aloitin tekemällä uuden hello-world komennon
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/088f39c2-a226-4f1d-bafc-61dfeb255d2a)
+
+
+annoin sille oikeudet :
+
+    sudo chmod +x hello-world
+
+loin helloworld.sls tiedoston
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/f0692877-c431-4504-aaee-53fcfa7be2f6)
+
+käytin komentoa : 
+
+    sudo salt-call --local state.apply helloworld
+
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/12deeee8-10bc-4080-90d0-02a8863ce304)
 
 
 
-# c) Komennus. Tee Salt-tila, joka asentaa järjestelmään uuden komennon.
+
+
+
+
+
+
+
+
+
+
 
 
 # d) Apassi. Tee Salt-tila, joka asentaa Apachen näyttämään kotihakemistoja.
+
+
 
 
 # e) Ämpärillinen. Tee Salt-tila, joka asentaa järjestelmään kansiollisen komentoja.
