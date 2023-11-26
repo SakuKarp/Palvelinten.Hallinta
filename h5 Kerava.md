@@ -73,21 +73,24 @@ käytin komentoa :
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/12deeee8-10bc-4080-90d0-02a8863ce304)
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 # d) Apassi. Tee Salt-tila, joka asentaa Apachen näyttämään kotihakemistoja.
 
+Aloitin luomalla html tiedoston
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/bfbbbd3c-a856-4735-a68f-811531239f29)
+
+    sudo nano index.html
+    sudo nano init.sls
+
+lisäsin init.sls tiedostoon teron sivuilta valmiin conffauksen https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/c09293d9-25e4-4b09-82f8-52b7d5f789ea)
+
+tämän jälkeen:
+
+    sudo salt-call --local state.apply apache2
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/02c84cf7-eb00-4cf8-86cc-d5e45b3174b3)
 
 
 
@@ -95,3 +98,5 @@ käytin komentoa :
 
 ## References
 
+https://terokarvinen.com/2018/04/03/apache-user-homepages-automatically-salt-package-file-service-example/
+https://terokarvinen.com/2023/configuration-management-2023-autumn/
