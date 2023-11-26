@@ -93,7 +93,27 @@ tämän jälkeen:
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/02c84cf7-eb00-4cf8-86cc-d5e45b3174b3)
 
 
+# e) Ämpärillinen. Tee Salt-tila, joka asentaa järjestelmään kansiollisen komentoja.
 
+
+
+Aloitin uudet komennot hello 1 , 2 , 3 ja init tiedoston 
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/ee3e17b2-bf4c-4fae-856d-3c27504e3a0f)
+
+Tämän jälkeen tein init.sls tiedoston
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/41a89bbc-e15d-418e-8f7a-7db1bcc8b731)
+
+Ajoin init tiedoston käyttämällä
+
+    sudo salt '*' state.apply komento
+
+   
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/e58a5a54-e910-4483-8c7c-0ec884dcae39)
+
+komennot olivat mennyt läpi.
 
 
 
