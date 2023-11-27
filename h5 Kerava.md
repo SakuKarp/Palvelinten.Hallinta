@@ -99,6 +99,11 @@ tämän jälkeen:
 
 Aloitin uudet komennot hello 1 , 2 , 3 ja init tiedoston 
 
+lisäsin oikeudet
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/4d4d0694-3ef6-47c5-bc19-c9c53533b016)
+
+
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/ee3e17b2-bf4c-4fae-856d-3c27504e3a0f)
 
 Tämän jälkeen tein init.sls tiedoston
