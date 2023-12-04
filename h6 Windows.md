@@ -68,12 +68,37 @@ Loin tekstitiedoston käyttämällä komentoa :
 
     salt-call --local state.single file.managed C:\testi123.txt
 
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/44d30c2b-be71-4d4f-8cc3-532a2908de9e)
+
+
 tämän jälkeen menin C: juureen ja käytin komentoa
 
-     dir
+     dir ## Näyttää tiedostot ja kansiot nykyisessä hakemistossa
+
+Kuvassa näkee että tekstitiedosto on tullut perille C: juureen.
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/861b4d89-baf8-4688-bf6b-868e6ab12f51)
+
 
 # e) Kokeile jotain itsellesi uutta toimintoa Saltista Windowsilla. (Voit käyttää apuna edellisten vuosien kotitehtäväraporttia tai Karvinen 2018: Control Windows with Salt. Huomaa, että noissa muistiinpanoissani voi jo hieman ikä painaa, ja niissä on myös epärelevantteja kokeiluja.)
 
+https://www.youtube.com/watch?v=gGsmeI1KKmA
+
+Yritin saada kyseisen videon kautta saltin toimimaan linuxilla ja windowsilla samaan aikaan mutta jostain syystä en saanut sitä toimimaan mitenkään 
+
+
+uusi komento jota koitin oli 
+
+salt-call --local pkg.list_pkgs
+
+joka näyttää asennetut paketit
+
+![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/870a19f6-68bd-4e92-a478-42f91bbf2ac9)
+
+tutkin vielä komentoa ja löysin tämän koska ihmettelin että miksi kaikki asennetut paketit eivät näy siellä
+
+https://github.com/saltstack/salt/issues/17948
 
 
 ## references
@@ -82,3 +107,4 @@ https://terokarvinen.com/2023/configuration-management-2023-autumn/
 https://docs.saltproject.io/salt/install-guide/en/latest/topics/install-by-operating-system/windows.html
 https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html
 https://github.com/therealhalonen/PhishSticks/blob/master/notes/ollikainen/windows.md
+https://github.com/saltstack/salt/issues/17948
