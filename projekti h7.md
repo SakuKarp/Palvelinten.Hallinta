@@ -101,6 +101,8 @@ Sain projektissa onnistuneesti asennettua micron ja gitin paikallisesti sekä mi
 ## References
 
 https://terokarvinen.com/2023/salt-vagrant/
+
+
 https://github.com/SakuKarp/Palvelinten.Hallinta/blob/main/h2%20karjaa.md
 
 
