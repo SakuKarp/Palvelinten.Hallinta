@@ -1,1 +1,5 @@
+## projekti
 
+Projektissa aion tehdä salt-staten joka lataa filet omille minioneille.
+
+Aloitin luomalla masterin ja kaksi minionia käyttäen teron valmista vagrant file tiedoston koodia jota käytettiin H2 osioissa.
