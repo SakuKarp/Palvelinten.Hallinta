@@ -74,7 +74,9 @@ t002
 
 Tämän jälkeen menin testaamaan että micro ja gitti toimii minioneilla
 
-
+    exit (masterilta)
+    vagrant ssh t001
+    vagrant ssh t002
 
 
 t001
