@@ -26,7 +26,7 @@ Tämän jälkeen hyväksyin avaimet sekä testasin yhteyden minioneihin
 ![image](https://github.com/SakuKarp/Palvelinten.Hallinta/assets/148875105/5082ceb6-ff9f-48d8-9208-76e389e038ff)
 
 
-Tämän jälkeen tein helloworld testin onnistuneesti
+Tämän jälkeen tein hello testi init.sls 
 
     sudo mkdir -p /srv/salt/hello
     sudoedit /srv/salt/hello/init.sls
